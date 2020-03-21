@@ -1,0 +1,7 @@
+{
+  "name": "myotp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
