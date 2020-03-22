@@ -1,0 +1,2 @@
+# OTP Hacker
+This is a demo application for demonstarting how it is dangerous to allow sms read permission to any app. And how it can be used to compromise all your online accounts which uses otp system for authentication. 
