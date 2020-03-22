@@ -13,5 +13,23 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <!-- <app-explore-container name="Tab 1 page"></app-explore-container> -->
+  <ion-content>
+    <ion-grid>
+      <ion-row>
+        <ion-col text-center>
+          <strong> Some other fun stuff here. </strong>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col >
+          <ion-button (click)="checkPermission($event)">
+            The Naughty Function
+          </ion-button>
+        </ion-col>
+      </ion-row>
+      
+    </ion-grid>
+  </ion-content>
+  
 </ion-content>
